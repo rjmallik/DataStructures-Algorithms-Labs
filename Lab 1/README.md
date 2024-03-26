@@ -1,0 +1,4 @@
+Lex.c: This is the main program file that sorts lines of text from an input file into lexicographical order and outputs them to a specified file. It utilizes the List ADT to manage and sort the indices corresponding to the lines of text.
+List.c: This file contains the implementation of the List Abstract Data Type (ADT), providing functions to create, manipulate, and manage a doubly linked list, which is used for sorting in the main Lex program.
+List.h: This is the header file for the List ADT, declaring the structures and prototypes for the functions implemented in List.c, providing an interface for List manipulation to other parts of the program, like Lex.c.
+ListTest.c: This file is used for testing the functionality of the List ADT implemented in List.c. It contains a series of tests to ensure that all aspects of the List ADT work as expected, helping to identify and fix bugs.
